@@ -1,0 +1,193 @@
+/* Fonts imported */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+/* Universal rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+/* Navbar section styles start here */
+.navbar-container {
+  width: 1060px;
+  height: 46px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 57px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Brand-name h1 {
+  color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 36px;
+font-weight: 800;
+}
+.navbar-options > ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.navbar-options > ul > li {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+#home-btn {
+  border-radius: 46px;
+
+background: rgb(230, 83, 60);
+padding: 8px 20px 8px 20px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+}
+/* Navbar section styles end here */
+
+/* Header section styles start here */
+.header-container {
+  width: 1440px;
+  height: 715px;
+  border: 2px solid blue;
+  margin: 0 auto;
+}
+/* Header section styles end here */
+
+.banner-container {
+  width: 1060px;
+  height: 580px;
+  border: 2px solid green;
+  margin: 0 auto;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-texts h2 {
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 78px;
+font-weight: 900;
+}
+.banner-texts p {
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+}
+.join-btn {
+  border-radius: 42px;
+
+background: rgb(230, 83, 60);
+padding: 16px 40px 16px 40px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+}
+.download-btn {
+  box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+padding: 16px 40px 16px 40px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+background: none;
+}
+/* Habits section styles start here */
+.habits-container {
+  width: 1044px;
+  height: 452px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 100px;
+  /* display: flex; */
+}
+.habits-texts {
+  text-align: center;
+  margin-bottom: 58px;
+}
+.habits-texts h2 {
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+margin-bottom: 14px;
+}
+.habits-texts p {
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+}
+.habits-images {
+  display: flex;
+  gap: 40px;
+}
+.habits-images h3 {
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+}
+.habits-images p {
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+/* Habits section styles start here */
+
+/* Running section styles start here */
+.run-container {
+  width: 1060px;
+  height: 372px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 165px;
+  border-radius: 18px;
+background: rgb(34, 34, 34);
+}
+.run-texts {
+  width: 443px;
+  height: 290px;
+  border: 2px solid green;
+}
+.run-texts h2 {
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+font-weight: 900;
+}
+.run-texts p {
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+}
+.run-image img {
+  width: 366px;
+  height: 312px;
+  border: 2px solid blue;
+}
+/* Running section styles end here */
