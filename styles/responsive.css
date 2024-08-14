@@ -204,8 +204,6 @@
   #bmi-calculator-header .heading p {
     text-align: left;
   }
-  /*BMI- calculate section */
-
   .price-container {
     max-width: 90%;
   } 
@@ -221,12 +219,9 @@
   #meet-our-team .img-content {
     grid-template-columns: repeat(1, 1fr);
   }
-
-  /*meet our team section */ 
   #meet-our-team .heading h2 {
     font-size: 2rem;
   }
-  /* run and extra section */
   #footer-section .content-row {
     flex-direction: column;
     margin: 0 20px;

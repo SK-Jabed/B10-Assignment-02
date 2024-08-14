@@ -573,7 +573,7 @@ input {
 }
 /* Pricing plan section styles start here */
 
-/* meet our team section start*/
+/* Meet our team section styles start here */
 #meet-our-team {
   margin: 90px auto;
 }
@@ -585,7 +585,6 @@ input {
   letter-spacing: 0%;
   text-align: center;
 }
-
 #meet-our-team .heading p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
@@ -594,7 +593,6 @@ input {
   letter-spacing: 0.3px;
   text-align: center;
 }
-
 #meet-our-team .img-content {
   display: grid;
   grid-template-columns: repeat(3, 2fr);
@@ -605,7 +603,6 @@ input {
   gap: 20px;
 
 }
-
 #meet-our-team .img-content .image {
   width: 100%;
   height: 272px;
@@ -615,7 +612,6 @@ input {
   justify-content: left;
   align-items: end;
 }
-
 #meet-our-team .img-content .trainer-1 {
   background: url(../images/trainer1.png), rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
@@ -623,7 +619,6 @@ input {
   background-size: cover;
   background-position: top;
 }
-
 #meet-our-team .img-content .trainer-2 {
   background: url(../images/trainer2.png), rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
@@ -631,7 +626,6 @@ input {
   background-size: cover;
   background-position: top;
 }
-
 #meet-our-team .img-content .trainer-3 {
   background: url(../images/trainer3.png), rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
@@ -639,7 +633,6 @@ input {
   background-size: cover;
   background-position: top;
 }
-
 #meet-our-team .img-content .trainer-4 {
   background: url(../images/trainer4.png), rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
@@ -647,7 +640,6 @@ input {
   background-size: cover;
   background-position: top;
 }
-
 #meet-our-team .img-content .trainer-5 {
   background: url(../images/trainer5.png), rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
@@ -655,7 +647,6 @@ input {
   background-size: cover;
   background-position: top;
 }
-
 #meet-our-team .img-content .trainer-6 {
   background: url(../images/trainer6.png), rgba(0, 0, 0, 0.2);
   background-blend-mode: overlay;
@@ -663,11 +654,9 @@ input {
   background-size: cover;
   background-position: top;
 }
-
 #meet-our-team .img-content .name {
   margin: 20px;
 }
-
 #meet-our-team .img-content .name h1 {
   color: rgb(255, 255, 255);
   font-size: 1.4rem;
@@ -675,7 +664,6 @@ input {
   line-height: 120%;
   letter-spacing: 0%;
 }
-
 #meet-our-team .img-content p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
@@ -683,8 +671,8 @@ input {
   line-height: 24px;
   letter-spacing: 0.3px;
 }
+/* Meet our team section styles end here */
 
-/* meet our team section end*/
 /* Footer section styles start here */
 #footer-section {
   max-width: 100%;
@@ -700,6 +688,9 @@ input {
 }
 #footer-section .content-row .logo-content {
   flex: 1;
+}
+#footer-section span {
+  color: white;
 }
 #footer-section .content-row .logo-content h1 {
   color: rgb(230, 83, 60);;
@@ -733,11 +724,9 @@ input {
   text-align: left;
   margin-bottom: 40px;
 }
-
 #footer-section .get-start li {
   margin-bottom: 20px;
 }
-
 #footer-section .get-start a {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
@@ -747,11 +736,9 @@ input {
   text-align: left;
   padding: 10px 5px;
 }
-
 #footer-section .get-start a:hover {
   color: rgb(230, 83, 60);
 }
-
 #footer-section .footer h1 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.4rem;
