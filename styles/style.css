@@ -276,7 +276,7 @@ body {
 }
 .item h2 {
   color: rgb(255, 255, 255);
-  font-size: 1, 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   line-height: 120%;
   letter-spacing: 0%;
@@ -291,13 +291,8 @@ body {
   letter-spacing: 0.3px;
   text-align: center;
 }
-/* #habit .item img:hover {
-  transition: all linear 0.3s;
-}
-#habit .item img:hover {
-  transform: scale(1.1);
-} */
 /* Habits section styles end here */
+
 /* Run extra section styles start here */
 .content {
   display: grid;

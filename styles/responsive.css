@@ -35,14 +35,14 @@
     top: 16%;
   }
   .habits {
-    margin: 90px 20px;
+    margin: 100px 30px;
   }
   .habits .img-item {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   .habits .item p {
-    width: 231px;
+    width: 230px;
     margin-bottom: 40px;
   }
   #Run-an-Extra {
@@ -167,18 +167,18 @@
     margin: 0 auto;
   }
   .habits {
-    margin: 60px 20px;
+    margin: 60px 30px;
   }
   .content {
     display: flex;
     flex-direction: column;
   }
-  .text-item h1 {
-    text-align:left;
+  .habits-title h2 {
+    text-align:center;
     font-size: 2rem;
   }
-  .text-item p {
-    text-align: left;
+  .habits-title p {
+    text-align: center;
   }
   #Run-an-Extra {
     margin: 60px 20px;
