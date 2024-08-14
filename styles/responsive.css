@@ -48,14 +48,6 @@
   #run-extra {
     margin: 90px 20px;
   }
-  #training .img-section-1 {
-    display: grid;
-    grid-template-columns: 32% 36% 32%;
-  }
-  #training .img-section-2 {
-    display: grid;
-    grid-template-columns: 40% 30% 30%;
-  }
   #bmi-calculator .calculate-chart {
     flex-direction: column;
     gap: 42px;
@@ -68,13 +60,6 @@
   }
   #bmi-calculator-header {
     margin: 90px 20px;
-  }
-  /* BMI-calculate section */
-  #challenge-section .card {
-    flex-direction: column;
- }
- #challenge-section .card-item:hover,.mid-card{
-    transform: scale(1);
   }
   .price-container {
     max-width: 90%;
@@ -188,6 +173,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  #run-extra .text-item h2 {
+    font-size: 2rem;
   }
   #run-extra .text-item button {
     width: 100%;
