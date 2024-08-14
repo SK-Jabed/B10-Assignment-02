@@ -1,5 +1,4 @@
-/* Responsive for small device start here */
-
+/* Responsive for medium device starts here */
 @media screen and (min-width:576px) and (max-width:992px) {
   .navbar-container,
   .banner-section {
@@ -70,7 +69,6 @@
   #meet-our-team {
     margin: 90px 20px;
   }
-  /*challenge section */ 
   #footer-section .content-row {
     flex-direction: column;
     margin: 0 20px;
@@ -79,9 +77,9 @@
     gap: 150px;
   }
 }
+/* Responsive for medium device ends here */
 
-/* xl-device media-quary  end*/
-
+/* Responsive for small device starts here */
 @media screen and (max-width :576px) {
   .navbar-options {
     display: none;
@@ -230,3 +228,4 @@
     flex-direction: column;
   }
 }
+/* Responsive for small device ends here */

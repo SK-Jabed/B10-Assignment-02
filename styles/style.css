@@ -362,7 +362,7 @@ body {
   align-items: center;
   margin: 90px auto;
 }
-#bmi-calculator-header .heading h1 {
+.heading h1 {
   color: rgb(255, 255, 255);
   font-size: 3rem;
   font-weight: 900;
@@ -370,7 +370,7 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
-#bmi-calculator-header .heading p {
+.heading p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
   font-weight: 400;
@@ -378,16 +378,16 @@ body {
   letter-spacing: 0.3px;
   text-align: left;
 }
-#bmi-calculator .calculate-chart {
+.calculate-chart {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 90px auto;
 }
-#bmi-calculator .table {
+.table {
   flex: 1;
 }
-#bmi-calculator .table-header h2 {
+.table-header h2 {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   font-weight: 900;
@@ -396,7 +396,7 @@ body {
   text-align: left;
   margin-bottom: 52px;
 }
-#bmi-calculator .table table {
+.table table {
   border-collapse: collapse;
 }
 #bmi-calculator .table th,
@@ -405,14 +405,14 @@ td {
   padding: 15px 18px;
   text-align: left;
 }
-#bmi-calculator .table th {
+.table th {
   color: rgb(255, 255, 255);
   font-size: 1rem;
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0%;
 }
-#bmi-calculator .table td {
+.table td {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
   font-weight: 400;
@@ -420,10 +420,10 @@ td {
   letter-spacing: 0%;
   text-align: left;
 }
-#bmi-calculator .bmi-form {
+.bmi-form {
   flex: 1;
 }
-#bmi-calculator .bmi-form h1 {
+.bmi-form h1 {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
   font-weight: 900;
@@ -432,7 +432,7 @@ td {
   text-align: left;
   margin-bottom: 14px;
 }
-#bmi-calculator .bmi-form p {
+.bmi-form p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
   font-weight: 400;
@@ -601,7 +601,6 @@ input {
   padding: 20px;
   margin: 54px auto;
   gap: 20px;
-
 }
 #meet-our-team .img-content .image {
   width: 100%;
