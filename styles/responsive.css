@@ -3,15 +3,15 @@
 @media screen and (min-width:576px) and (max-width:992px) {
   .navbar-container,
   .banner-section {
-    margin: 0px 20px;
+    margin: 0px 30px;
     gap: 10px;
   }
   .navbar-options a {
     margin: 0 10px;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
-  .banner-section .title {
-    margin: 70px;
+  .banner-title {
+    margin: 60px;
   }
   .banner-section .btn a {
     padding: 16px 30px;
@@ -26,13 +26,13 @@
   }
   .text-one {
     position: absolute;
-    left: 12%;
+    left: 10%;
     bottom: 23%;
   }
   .text-two {
     position: absolute;
     right: 8%;
-    top: 14%;
+    top: 16%;
   }
   .habits {
     margin: 90px 20px;
@@ -117,8 +117,8 @@
     flex-direction: column;
     margin: 0px 20px;
   }
-  .title h1 {
-    font-size: 2.4rem;
+  .banner-title h1 {
+    font-size: 2.6rem;
   }
   .shape {
     font-size: 5rem;   
@@ -151,7 +151,7 @@
     font-size: 0.6rem;
   }
   .banner-section .btn {
-    gap: 10px;
+    gap: 8px;
   }
   .banner-section .btn a {
     padding: 16px 30px;

@@ -9,12 +9,6 @@
   box-sizing: border-box;
 }
 
-/* :root {
-    --bg-primary: black;
-    --bg-secondary: rgb(34, 34, 34);
-    --bg-lighten: rgb(230, 83, 60);
-} */
-
 /* Shared styles */
 button {
   background: none;
@@ -23,23 +17,15 @@ button {
 ul {
   list-style: none;
 }
-a, a:hover {
+a {
   text-decoration: none;
 }
 body {
-    font-family: Inter;
-    background-color: black;
-    color: white;
+  font-family: Inter;
+  background-color: black;
+  color: white;
 }
-#habit,
-   #Run-an-Extra,
-   #training,
-   .calculate-chart,
-   #bmi-calculator-header,
-   #meet-our-team,
-   #challenge-section{
-       margin: 90px auto;
-   }
+
 /* Header section styles start here */
 .header {
   max-width: 100%;
@@ -53,7 +39,7 @@ body {
 
 /* Navbar section styles start here */
 .navbar-container {
-  padding-top: 50px;
+  padding-top: 57px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,14 +50,17 @@ body {
 }
 .brand-name h1 {
   color: rgb(230, 83, 60);
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 800;
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
   font-style: italic;
 }
-.navbar-container .fa-solid {
+.brand-name span {
+  color: white;
+}
+.hamburger-icon .fa-solid {
   display: none; 
   font-size: 2rem;
   color: white; 
@@ -91,7 +80,6 @@ body {
   margin: 0 23px;
   border-radius: 46px;
   text-align: left;
-  /* transition: all linear 0.2s; */
 }
 .navbar-options .home {
   margin-left: 0;
@@ -99,7 +87,6 @@ body {
 .navbar-options .about {
   margin-right: 0;
 }
-/* .header .navbar-options a:hover, */
 .active {
   background: rgb(230, 83, 60);
 }
@@ -111,11 +98,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.title {
+.banner-title {
   margin-top: 50px;
   flex: 4;
 }
-.title h1 {
+.banner-title h1 {
   color: rgb(255, 255, 255);
   font-size: 4.8rem;
   font-weight: 900;
@@ -127,22 +114,22 @@ body {
 .shape {
   font-family: miama;
   color: rgb(255, 255, 255);
-  font-size: 10rem;
+  font-size: 9rem;
   font-weight: 500;
   letter-spacing: 0%;
   text-align: left;
 }
-.title p {
+.banner-title p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: left;
-  margin-bottom: 28px;
+  margin-bottom: 34px;
 }
 .banner-section img {
-  margin-top: 32px;
+  margin-top: 42px;
   margin-left: 88px;
 }
 .banner-section .img {
@@ -152,7 +139,7 @@ body {
 }
 .banner-section .btn {
   display: flex;
-  gap: 14px;
+  gap: 14px; 
 }
 .banner-section .btn a {
   padding: 16px 40px;
@@ -162,7 +149,7 @@ body {
   line-height: 22px;
   letter-spacing: 0px;
   text-align: left;
-  border-radius: 42px;
+  border-radius: 42px; 
 }
 .btn-one a {
   background: rgb(230, 83, 60);
@@ -327,6 +314,9 @@ body {
   border-radius: 18px;
   overflow: hidden;
 }
+#Run-an-Extra {
+  margin: 90px auto;
+}
 #Run-an-Extra img {
   width: 100%;
   transform: translate(-35%, 40%) scale(3);
@@ -375,6 +365,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin: 90px auto;
 }
 #bmi-calculator-header .heading h1 {
   color: rgb(255, 255, 255);
@@ -396,6 +387,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 90px auto;
 }
 #bmi-calculator .table {
   flex: 1;
@@ -585,7 +577,9 @@ input {
 }
 
 /* meet our team section start*/
-
+#meet-our-team {
+  margin: 90px auto;
+}
 #meet-our-team .heading h2 {
   color: rgb(255, 255, 255);
   font-size: 3rem;
