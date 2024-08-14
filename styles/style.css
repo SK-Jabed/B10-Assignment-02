@@ -309,14 +309,14 @@ body {
   border-radius: 18px;
   overflow: hidden;
 }
-#Run-an-Extra {
-  margin: 90px auto;
+#run-extra {
+  margin: 100px auto;
 }
-#Run-an-Extra img {
+#run-extra img {
   width: 100%;
   transform: translate(-35%, 40%) scale(3);
 }
-#Run-an-Extra .text-item h2 {
+#run-extra .text-item h2 {
   color: rgb(255, 255, 255);
   font-size: 3rem;
   font-weight: 900;
@@ -325,7 +325,7 @@ body {
   text-align: left;
   margin-bottom: 15px;
 }
-#Run-an-Extra .text-item p {
+#run-extra .text-item p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.9rem;
   font-weight: 400;
@@ -334,7 +334,7 @@ body {
   text-align: left;
   margin-bottom: 35px;
 }
-#Run-an-Extra .text-item a {
+#run-extra .text-item a {
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
   font-weight: 600;
