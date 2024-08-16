@@ -58,17 +58,17 @@
     display: grid;
     grid-template-columns: 40% 30% 30%;
   }
-  #bmi-calculator .calculate-chart {
+  .bmi-calculator .calculate-chart {
     flex-direction: column;
     gap: 42px;
     justify-content: left;
     margin: 90px 20px;
   }
-  #bmi-calculator .btn {
+  .bmi-calculator .btn {
     margin-top: 34px;
     text-align: center;
   }
-  #bmi-calculator-header {
+  .bmi-calculator-header {
     margin: 90px 20px;
   }
   .price-container {
@@ -77,7 +77,7 @@
   .pricing-boxes {
     grid-template-columns: repeat(2, 1fr);
   }
-  #meet-our-team {
+  .meet-our-team {
     margin: 90px 20px;
   }
   #footer-section .content-row {
@@ -91,7 +91,7 @@
 /* Responsive for medium device ends here */
 
 /* Responsive for small device starts here */
-@media screen and (max-width :576px) {
+@media screen and (max-width:576px) {
   .navbar-options {
     display: none;
   }
@@ -212,25 +212,25 @@
     display: grid;
     grid-template-columns: 48% 52%;
   }
-  #bmi-calculator-header .heading h1 {
+  .bmi-calculator-header .heading h1 {
     font-size: 2rem;
   }
-  #bmi-calculator-header {
+  .bmi-calculator-header {
     margin: 60px 20px;
   }
-  #bmi-calculator .calculate-chart {
+  .bmi-calculator .calculate-chart {
     flex-direction: column;
     gap: 42px;
     justify-content: left;
     margin: 60px 20px;
   }
-  #bmi-calculator {
+  .bmi-calculator {
     padding: 1px 0px;
   }
-  #bmi-calculator-header .heading h1 {
+  .bmi-calculator-header .heading h1 {
     text-align: left;
   }
-  #bmi-calculator-header .heading p {
+  .bmi-calculator-header .heading p {
     text-align: left;
   }
   .price-container {
@@ -242,13 +242,13 @@
   .price-container h2 {
     font-size: 2rem;
   }
-  #meet-our-team {
+  .meet-our-team {
     margin: 60px 20px;
   }
-  #meet-our-team .img-content {
+  .meet-our-team .img-content {
     grid-template-columns: repeat(1, 1fr);
   }
-  #meet-our-team .heading h2 {
+  .meet-our-team-title h2 {
     font-size: 2rem;
   }
   #footer-section .content-row {
